@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="first-section">
+            <img src="images/partner.png" alt="" class="partner">
+            <img src="images/smallplanet.png" alt="" class="small-planet">
+            <img src="images/smallplanet.png" alt="" class="small-planet2">
+        </div>
+
+
+        <div class="form-container">
+
+            <img src="images/partner.png" alt="" class="partner"><!-- for mobile-->
+
+            <form action="">
+                <div class="logo-container">
+                    <img src="images/logos.png" alt="Home logo" class="logo">
+                    <img src="images/bigcircle.png" alt="" class="big-circle">
+                </div>
+                <br>
+
+                <div class="form-section">
+                    <!-- ======================== -->
+                    <div class="inside">
+                        <label for="contry"> Country</label><br>
+                        <input type="text" class="contry" placeholder="Enter a valid Country">
+                    </div>
+                    <!-- ======================== -->
+                    <div class="inside">
+                        <label for="city"> City</label><br>
+                        <input type="text" class="city" placeholder="Enter a valid city">
+                    </div>
+
+
+                    <!-- ======================== -->
+                    <div class="inside">
+                        <label for="rooms"> Rooms</label><br>
+                        <input type="text" class="room" placeholder="number of rooms"><br>
+                        <!-- ======================== -->
+                        <label for="probrety">Probreties</label><br>
+                        <select name="probrety" id="probrety">
+                            <option value="Appartement">Appartement</option>
+                            <option value="House">House</option>
+                            <option value="Villa">Villa</option>
+                            <option value="Duplex">Duplex</option>
+                        </select>
+                    </div>
+                    <!-- ======================== -->
+                    <div class="inside">
+                        <label for="price">Select Price Range</label><br>
+                        <input type="range" class="price" min="9000" max="100000">
+                    </div>
+                    <!-- ======================== -->
+                    <div class="inside las-check">
+                        <input type="checkbox" class="checkbox">
+                        <label for="price">Show Proberties that sell .</label><br>
+                    </div>
+                    <!-- ======================== -->
+                    <input type="submit" class="search-btn" value="Search" width="120px"><br>
+
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="social">
+            <span><a href="#"> <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i> </a></span>
+            <span><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></span>
+            <span><a href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a></span>
+        </div>
+
+    </main>
+</body>
+
+</html>
