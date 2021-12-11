@@ -17,14 +17,13 @@ body{
 main{
     position:absolute;
     width: 70%;
-    height: 86%;
+    height: max-content;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     background-color: white;
     border-radius: 20px;
-    overflow: visible;
     box-shadow: 0px 0px 9px rgba(82, 82, 82, 0.521);
 }
 
