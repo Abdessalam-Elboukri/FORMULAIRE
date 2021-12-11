@@ -195,11 +195,8 @@ option{
 
 @media(max-width : 650px) {
     main{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
         width: 93%;
-        height: 100%;
+        height: max-content;
         margin-top: 70px;
     }
     .first-section{
